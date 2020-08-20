@@ -1,0 +1,37 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier:write": "prettier --write ./api ./clients ./components ./db ./fixtures ./models ./pages",
+    "lint": "eslint '**/*.js' --fix --ignore-pattern node_modules/ --ignore-pattern .next --no-error-on-unmatched-pattern"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.15.0",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "emotion-theming": "^10.0.27",
+    "mongoose": "^5.9.28",
+    "next": "9.5.1",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "prettier": "^2.0.5"
+  }
+}
